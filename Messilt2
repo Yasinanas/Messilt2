@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,72 +18,3 @@
 
         @keyframes gradientBG {
             0% {
-                background-position: 0% 50%;
-            }
-            100% {
-                background-position: 100% 50%;
-            }
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .feature-list {
-            margin-top: 15px;
-            margin-bottom: 20px;
-        }
-        .feature-list li {
-            margin-left: 20px;
-            margin-bottom: 5px;
-        }
-        .usage-steps {
-            margin-top: 15px;
-            margin-bottom: 20px;
-        }
-        .usage-steps li {
-            margin-left: 20px;
-            margin-bottom: 5px;
-        }
-        .disclaimer {
-            margin-top: 15px;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <h1 class="text-4xl font-bold mb-4">𝗠𝗲𝘀𝘀𝗶𝗹𝘁𝟮 𝘀𝗰𝗿𝗶𝗽𝘁</h1>
-        <p class="text-lg mb-4">Welcome to the official website of messilt2!</p>
-        
-        <h2 class="text-2xl font-semibold mt-6 mb-3">what does it have?:</h2>
-        <ul class="feature-list text-lg list-disc list-inside">
-            <li>Base duplicating </li>
-            <li>Get wood</li>
-            <li>Auto buy</li>
-            <li>Auto sell wood</li>
-        </ul>
-
-        <h2 class="text-2xl font-semibold mt-6 mb-3">more:</h2>
-        <p class="text-lg mb-4">:</p>
-        <ol class="usage-steps text-lg list-decimal list-inside">
-            <li>our discord server for bases and updates and more: https://discord.gg/HW2qc7sJqP</li>
-            <li>loadstring(game:HttpGet('https://pastebin.com/raw/fQFK61jn'))()</li>
-            <li>Enjoy And Have Fun.</li>
-        </ol>
-
-        <h2 class="text-2xl font-semibold mt-6 mb-3">selling bases?:</h2>
-        <p class="text-lg mb-4 disclaimer">yes! we do sell bases at our discord server</p>
-    </div>
-
-    <!-- Discord Button -->
-    <div class="fixed bottom-0 left-0 right-0 flex justify-center pb-4">
-        <a href="https://discord.gg/HW2qc7sJqP" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Discord
-        </a>
-    </div>
-
-</body>
-</html>
